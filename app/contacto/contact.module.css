@@ -1,0 +1,220 @@
+
+
+
+
+.contact {
+    width: 100%;
+    background: url(../../public/header/29.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    /* background: linear-gradient( #030c8075, #1e213a79,#00098530, #0013a330); */
+    position: relative;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     /* background: #031d589d; */
+     /* background-color:  rgba(0, 4, 83, 0.658); */
+     background: linear-gradient( #010324d3, #0c0e18bb,#000225b6, #000527de);
+    /*  background: linear-gradient( #020746b7, #0c0e18bb,#000225f6, #000527d2); */
+    z-index: 1;
+}
+.contact_flex{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+  
+    justify-content: space-between;
+    gap: 5em;
+     text-align: center;
+    z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.color_text {
+    color: rgb(2, 124, 155);
+}
+
+.contact p {
+    
+    color: rgb(175, 175, 175);
+}
+
+.contact_information {
+    width: 50%;
+    background: linear-gradient( #020746b7, #0c0e18bb,#000225f6, #000527d2);
+    padding: 50px;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+
+.contact_maps {
+    width: 100%;
+    position: relative;
+   
+}
+
+.contact_maps {
+    width: 100%;
+    z-index: 1;
+    height: 300px;
+    
+    
+}
+.contact_maps img{
+    object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+
+.contact_maps::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 255, 242, 0.5); */
+    /* background-color: rgba(0, 255, 255, 0.432); */
+    background: linear-gradient( #08108377, #1e318f86,#171c8879, #091a857c);
+    z-index: 1;
+}
+
+
+.contact_information p {
+ 
+}
+
+.contact_information {
+    text-align: start;
+
+}
+   
+.input_text{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+   
+}
+.form_textarea{
+   
+    width: 100%;
+    padding: 5px;
+}
+
+.form_send{
+  
+    padding: 10px 20px;
+ 
+    color: rgba(2, 124, 155, 0.753);
+    width: 170px;
+    margin-top: 40px;
+    cursor: pointer;
+   
+    color: rgb(255, 255, 255);
+    /* box-shadow: 0 0 0.7142857142857143rem #0ba792; */
+    box-shadow: 0 0 0.7142857142857143rem #0e698d;
+    background-color: rgba(29, 56, 56, 0.507);
+    border: none;
+   
+}
+.form_send:hover{
+    background-color: rgba(38, 76, 87, 0.274);
+
+   
+}
+
+.input_text[type="text"],
+.input_text[type="email"],
+.form_textarea{
+    color: rgb(62, 131, 131);
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 0.7142857142857143rem #0a778a;
+}
+.input_text[type="text"],
+.input_text[type="email"],
+.form_textarea:focus{
+    /* box-shadow: 0 0 0.7142857142857143rem #0ba792; */
+    box-shadow: 0 0 0.7142857142857143rem #0e698d;
+    border: 1px solid rgba(0, 255, 255, 0.459);
+    padding-left: 10px ;
+}
+
+.input_text::placeholder{
+    color: rgba(54, 107, 107, 0.575);
+    
+}
+.input, .form_textarea{
+    border: 1px solid rgba(0, 255, 255, 0.459);
+    
+    outline: none;
+  }
+
+ 
+
+@media(max-width:1200px) {
+    .contact {        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;       
+        padding: 20px;              
+    }
+    .contact_flex{
+        flex-direction: column;
+    }
+    
+    
+    .contact p {
+           
+    }
+
+    .contact_information {
+        width: 100%;
+    }
+    .contact_maps {
+        width: 100%;  
+       
+    }
+    .contact_maps img{
+       width: 100%;
+       height: 100%;
+    }
+    .contact_information p {
+       
+    }  
+    
+    .input_text{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        
+    }
+    .form_textarea{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .form_send{
+        margin-top: 10px;
+        width: 150px;
+        padding: 10px;
+        
+    }
+
+   
+  
+
+}
+
+
+
+

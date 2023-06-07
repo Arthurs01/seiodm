@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+body {
+  color: rgb(168, 168, 168);
+ 
+  font-size: 18px;
+
+  /* background: linear-gradient( #020746b7, #0c0e18bb,#000225b9, #000527a4); */
+  /* background: linear-gradient( #030c8075, #1e213a79,#00098530, #0013a330); */
+  background: dark;
+   
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+}
+
+h1{
+  /* color: rgb(2, 124, 155); */
+  /* color: rgb(2, 94, 155); */
+   /* color: rgb(48, 102, 173);  */
+   color: rgb(4, 146, 182);
+   line-height: 1.5em;
+}
+h2{
+  /* color: rgb(2, 124, 155); */
+  /* color: rgb(2, 94, 155); */
+   /* color: rgb(48, 102, 173);  */
+   color: rgb(4, 146, 182);
+   line-height: 1.5em;
+}
+
+p{
+  line-height: 2.5em;
+  font-size: 1em;
+}
+
+.blue_color{
+  color: rgb(48, 102, 173);
+}
+.blue_green_color{
+  color: rgb(4, 146, 182);
+
+}
+
+@media(max-width:1200px) {
+ h1{
+ font-size: 25px;
+
+}
+p{
+  font-size: .9em;
+}
+}
+@media(max-width:720px) {
+  h2{
+
+ font-size: 25px;
+ }
+ p{
+ font-size: .8em;
+ }
+}
+
